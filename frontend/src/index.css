@@ -7,3 +7,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@layer components {
+  .view-btn {
+    width: fit-content;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 205, 46);
+    cursor: pointer;
+  }
+
+  .view-btn:hover {
+    background-color: rgb(23, 132, 23);
+  }
+}
